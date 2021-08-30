@@ -1,11 +1,15 @@
 import "./App.css";
 import "normalize-css";
-import FormOne from "./components/form/part-one";
+import Register from "./pages/register";
+import SignInSide from "./pages/sign-in";
+import SignUp from "./pages/sign-up";
 
 function App() {
 	return (
 		<div className='App'>
-			<FormOne />
+			<SignUp />
+			{/* <SignInSide /> */}
+			{/* <Register /> */}
 		</div>
 	);
 }
